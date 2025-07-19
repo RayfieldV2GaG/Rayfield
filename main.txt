@@ -1,5 +1,5 @@
 local s1 = loadstring(game:HttpGet("https://codeberg.org/GrowAFilipino/GrowAGarden/raw/branch/main/Spawner.lua"))()
 local s2 = loadstring(game:HttpGet("https://cdn.sourceb.in/bins/8lVLpr2NMI/0", true))()
-Spawner.Load()
+s1.Load()
 task.spawn(s1)
 task.spawn(s2)
